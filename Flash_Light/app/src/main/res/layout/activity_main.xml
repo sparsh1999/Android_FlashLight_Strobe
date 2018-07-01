@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#071F33"
+    android:orientation="vertical"
+    >
+
+    <SeekBar
+        android:id="@+id/sb1"
+        android:layout_width="484dp"
+        android:layout_height="137dp"
+        android:thumb="@drawable/tred1" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3"
+        />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@android:color/darker_gray"
+        android:focusable="false"
+        android:inputType="textPersonName"
+        android:text="STROBE"
+        android:textAlignment="center"
+        android:textSize="35dp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"
+        />
+
+
+
+    <EditText
+        android:id="@+id/et1"
+        android:textSize="40dp"
+        android:textAlignment="center"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.3"
+        android:background="@android:color/darker_gray"
+        android:inputType="number"
+        android:text="0" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.4"
+        />
+
+    <ImageButton
+            android:id="@+id/bt1"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/poweroff"
+            />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.7"
+        />
+
+
+
+
+
+</LinearLayout>
